@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# PocketBase runtime. Schema migrations in database/pb_migrations stay in git.
+pocketbase
+pb_data/
+database/pb_data/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
