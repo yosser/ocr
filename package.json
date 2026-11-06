@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pb:servedev": "pocketbase serve --dir=./database/pb_data --migrationsDir=./database/pb_migrations --hooksDir=./database/pb_hooks --http=127.0.0.1:8093"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
+    "pocketbase": "^0.27.3",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "scribe.js-ocr": "^0.16.1",

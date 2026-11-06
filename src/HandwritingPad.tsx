@@ -2,7 +2,7 @@ import { forwardRef, useEffect, useImperativeHandle, useRef, type PointerEvent }
 
 const BITMAP_WIDTH = 1200
 const BITMAP_HEIGHT = 480
-const STROKE_WIDTH = 16
+const STROKE_WIDTH = 4
 const INK = '#111111'
 
 type Point = {
